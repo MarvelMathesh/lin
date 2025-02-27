@@ -7,6 +7,7 @@ on:
       - qcom-sdm660-6.*.y
     tags:
       - v*-sdm660
+  workflow_dispatch:
 jobs:
   check-dbts:
     runs-on: ubuntu-22.04
